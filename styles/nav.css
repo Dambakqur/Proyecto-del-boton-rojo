@@ -1,0 +1,57 @@
+nav{
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+}
+
+nav > div{
+  display: flex;
+  
+}
+
+button{
+  background-color: #0e0e0e;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+.search > input{
+  border-radius: 50px 0px 0px 50px;
+  border: white;
+  font-size: 30px;
+  padding: 0px 5px 0px 20px;
+  font: 4px;
+  background-color: #5e5e5e;
+  border-color: white;
+}
+
+.sbutton:hover{
+  cursor: pointer;
+}
+
+.sbutton{ 
+  background-color: #fdfdfd91;
+border-radius: 0px 50px 50px 0px;
+padding: 0px 20px 0px 20px;
+}
+
+#camera{
+  padding: 10px 35px 0px 5px;
+}
+
+#bell{
+  padding: 8px 25px 0px 0px;
+}
+
+#user{
+  padding: 3px 0px 0px 0px;
+}
